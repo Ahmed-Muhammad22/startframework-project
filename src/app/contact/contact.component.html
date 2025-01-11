@@ -1,0 +1,37 @@
+<section>
+  <div class="container pt-5 mb-5">
+    <div class="text-center position-relative">
+      <h2>CONTACT COMPONENT</h2>
+      <span class="sh1"></span>
+      <i class="fa-solid fa-star text-black"></i>
+      <span class="sh2"></span>
+    </div>
+    <form class="form-container w-50 p-3 mx-auto mt-5">
+      <div class="input-group">
+        <input id="userName" type="text" name="userName" class="inputs" placeholder="userName" [(ngModel)]="userName">
+        <label for="userName" class="form-label">userName</label>
+
+      </div>
+
+      <div class="input-group">
+        <input id="userAge" type="number" name="userAge" class="inputs" placeholder="userAge">
+        <label for="userAge" class="form-label">userAge</label>
+
+      </div>
+
+      <div class="input-group">
+        <input id="userEmail" type="email" name="userEmail" class="inputs" placeholder="userEmail">
+        <label for="userEmail" class="form-label">userEmail</label>
+
+      </div>
+
+      <div class="input-group">
+        <input id="userPassword" type="password" name="userPassword" class="inputs" placeholder="userPassword">
+        <label for="userPassword" class="form-label">userPassword</label>
+
+      </div>
+
+      <button type="submit" class="btn mt-4 text-white" style="background-color: #1abc9c;">Send Message</button>
+    </form>
+  </div>
+</section>
